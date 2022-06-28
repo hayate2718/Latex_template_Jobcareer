@@ -1,0 +1,121 @@
+\documentclass[12pt,a4paper,dvipdfmx]{jarticle}
+\usepackage[top = 20truemm, bottom = 20truemm, left = 15truemm , right = 15truemm]{geometry}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{here}
+\usepackage[dvipdfmx]{hyperref}
+\usepackage{pxjahyper}
+\usepackage{array}
+\usepackage{amsmath}
+\hypersetup{
+	bookmarksnumbered = true,
+	colorlinks = true,
+	setpagesize = false,
+	linkcolor = blue,
+	urlcolor = blue
+}
+
+
+\makeatletter
+\def\@maketitle{%
+\begin{flushright}%
+{\large 記入日 \@date}% 日付
+\end{flushright}%
+\begin{center}%
+{\LARGE \@title \par}% タイトル
+\end{center}%
+\begin{flushright}%
+{\large \@author}% 著者
+\end{flushright}%
+\vskip 5mm
+}
+\makeatother
+
+
+\title{職務経歴書}
+\author{小野澤 颯}
+\begin{document}
+\maketitle
+\section {職務要約}
+
+\section{職務経歴}
+
+\begin{enumerate}
+	
+	\item {経歴1}\\
+	\begin{tabular}{c|c}
+	\hline
+	期間 & 業務内容\\
+	\hline
+	\hline
+	
+	\begin{tabular}{c} 
+	years/months/days\\～\\years/months/days
+	\end{tabular}
+	&
+	
+	\begin{tabular}{l} 
+	
+	業務内容 
+	
+	\end{tabular}\\
+	
+	\hline
+	
+	\end{tabular}
+
+	\item {経歴2}\\
+\begin{tabular}{c|c}
+	\hline
+	期間 & 業務内容\\
+	\hline
+	\hline
+	
+	\begin{tabular}{c} 
+	years/months/days\\～\\years/months/days
+	\end{tabular}
+	&
+	
+	\begin{tabular}{l} 
+	
+	業務内容 
+	
+	\end{tabular}\\
+	
+	\hline
+	
+	\end{tabular}
+
+\end{enumerate}
+
+
+\section{スキル}
+
+\begin{itemize}
+
+	\item{スキル1}
+
+	\item{スキル2}
+
+\end{itemize}	
+
+\section{資格}
+
+\begin{itemize}
+
+	\item{資格1}
+
+	\item{資格2}
+
+\end{itemize}	
+		
+\section{自己PR}
+
+\begin{itemize}
+
+	\item{PR1}
+
+	\item{PR2}
+
+\end{itemize}	
+
+\end{document}
